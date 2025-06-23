@@ -1,0 +1,12 @@
+open ports found are:
+53:DNS
+80:HTTP
+443:HTTPS
+8009:ajp13
+8008: http(for smarttv)
+8443:https-alt
+9000: cslistener
+135:msrpc
+139:netbios-ssn
+445: microsoft-ds
+5357:wsdapi
