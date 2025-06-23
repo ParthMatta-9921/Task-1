@@ -1,0 +1,19 @@
+*/ the services listed are the common services which are present in the nmap database, i.e, there may be some other service running on that port
+but from port 0 to 1023, it will be the services listred cause these are the well known ports and they don't change.*/
+
+
+The service running on port 53 will always be DNS. it resolves a domain to an ip address for the devices to communicate as
+we humans can't remember different ip addresses for a website so we use domains to make it easy for us.
+
+The services running on port 80 and 443 are HTTP and HTTPS. these transfer html data between two addresses, 
+while port 80 does it in an unsecure manner, port 443 uses TLS/SSL.
+
+8008:alternative port for http for samrt tvs.
+8009: communicate between apache web server and tomcat.
+8443: alternative port for https for smart tvs.
+9000: it is being used for a firewall.
+135: communication between two programs on two different devices.
+139:for file and printer sharing service 
+445:  for directory services in a windows network
+5357: for discovering network devices and use thorugh a web service
+

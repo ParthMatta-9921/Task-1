@@ -1,0 +1,12 @@
+Attacker can scan the network for these open ports to identify some vulnerability that is associated with that
+service/protocol that is running on that port and try to get onto the network or install some malware through it.
+It could also be used for DOS attacks.
+Leaving ports ope means increasing attack surface so it gives the attacker more ways to get through to the network or
+device/server.
+There could be MITM attacks as unencrypted traffic flows through them and all the attacker has to do is sort through
+the packets to steal critical information.
+
+for an open port 53, there could be DNS spoofing(changing ip address to a domain) and other attacks.
+
+for an open port 80, there could be MITM attack and theinfo could easily be read as transferred in plaintext,
+so passwords, credit card info could easily be leaked.
